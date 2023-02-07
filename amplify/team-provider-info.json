@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-congtiorepro-dev-112646-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053649414724:role/amplify-congtiorepro-dev-112646-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053649414724:role/amplify-congtiorepro-dev-112646-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-congtiorepro-dev-112646-deployment",
+      "UnauthRoleName": "amplify-congtiorepro-dev-112646-unauthRole",
+      "StackName": "amplify-congtiorepro-dev-112646",
+      "StackId": "arn:aws:cloudformation:us-east-1:053649414724:stack/amplify-congtiorepro-dev-112646/37b12f20-a704-11ed-a436-0ae1e81ad34b",
+      "AmplifyAppId": "ducmnc0hyn9zs"
+    },
+    "categories": {
+      "auth": {
+        "congtioreproa8e36e83": {
+          "userPoolId": "us-east-1_i4gAr3xhi",
+          "userPoolName": "testiam2",
+          "webClientId": "1v2j31vtf14le4ul9tjpfe2vst",
+          "nativeClientId": "1v2j31vtf14le4ul9tjpfe2vst",
+          "identityPoolId": "us-east-1:fc4a2073-2811-49b7-89c7-f9ed128a3a83",
+          "identityPoolName": "testiam2",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::053649414724:role/Cognito_testiam2Auth_Role",
+          "authRoleName": "Cognito_testiam2Auth_Role",
+          "unauthRoleArn": "arn:aws:iam::053649414724:role/Cognito_testiam2Unauth_Role",
+          "unauthRoleName": "Cognito_testiam2Unauth_Role"
+        }
+      }
+    }
+  }
+}
