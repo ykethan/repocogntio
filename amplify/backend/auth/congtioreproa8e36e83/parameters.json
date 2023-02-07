@@ -3,11 +3,17 @@
   "resourceName": "congtioreproa8e36e83",
   "serviceType": "imported",
   "region": "us-east-1",
+  "authProvidersUserPool": [],
   "requiredAttributes": [
     "email"
   ],
   "passwordPolicyMinLength": 8,
-  "passwordPolicyCharacters": [],
+  "passwordPolicyCharacters": [
+    "Requires Lowercase",
+    "Requires Uppercase",
+    "Requires Numbers",
+    "Requires Symbols"
+  ],
   "mfaConfiguration": "OFF",
   "autoVerifiedAttributes": [
     "email"

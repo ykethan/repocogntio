@@ -26,6 +26,14 @@
           "unauthRoleArn": "arn:aws:iam::053649414724:role/Cognito_testiam2Unauth_Role",
           "unauthRoleName": "Cognito_testiam2Unauth_Role"
         }
+      },
+      "function": {
+        "congtiorepro5e8a0157": {
+          "one": "one",
+          "two": "two",
+          "deploymentBucketName": "amplify-congtiorepro-dev-112646-deployment",
+          "s3Key": "amplify-builds/congtiorepro5e8a0157-716d7a544c2b384d5272-build.zip"
+        }
       }
     }
   },

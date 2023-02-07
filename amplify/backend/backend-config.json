@@ -8,6 +8,14 @@
       "serviceType": "imported"
     }
   },
+  "function": {
+    "congtiorepro5e8a0157": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "parameters": {
     "AMPLIFY_auth_congtioreproa8e36e83_allowUnauthenticatedIdentities": {
       "usedBy": [
@@ -94,6 +102,38 @@
         {
           "category": "auth",
           "resourceName": "congtioreproa8e36e83"
+        }
+      ]
+    },
+    "AMPLIFY_function_congtiorepro5e8a0157_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "congtiorepro5e8a0157"
+        }
+      ]
+    },
+    "AMPLIFY_function_congtiorepro5e8a0157_one": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "congtiorepro5e8a0157"
+        }
+      ]
+    },
+    "AMPLIFY_function_congtiorepro5e8a0157_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "congtiorepro5e8a0157"
+        }
+      ]
+    },
+    "AMPLIFY_function_congtiorepro5e8a0157_two": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "congtiorepro5e8a0157"
         }
       ]
     }
